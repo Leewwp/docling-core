@@ -31961,7 +31961,16 @@
             }
           ]
         ]
-      }
+      },
+      "annotations": [
+        {
+          "kind": "misc",
+          "content": {
+            "summary": "Typical Docling setup runtime characterization.",
+            "type": "performance data"
+          }
+        }
+      ]
     },
     {
       "self_ref": "#/tables/1",
