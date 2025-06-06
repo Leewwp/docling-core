@@ -66,7 +66,7 @@
         "$ref": "#/texts/19"
       },
       {
-        "$ref": "#/texts/20"
+        "$ref": "#/groups/6"
       },
       {
         "$ref": "#/texts/21"
@@ -676,6 +676,26 @@
       "content_layer": "body",
       "name": "group",
       "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/996"
+        },
+        {
+          "$ref": "#/texts/997"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "inline"
     }
   ],
   "texts": [
@@ -1236,7 +1256,7 @@
     {
       "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/body"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
@@ -1248,17 +1268,17 @@
             "l": 108.0,
             "t": 547.82,
             "r": 504.00300000000004,
-            "b": 506.362,
+            "b": 528,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            321
+            139
           ]
         }
       ],
-      "orig": "To use Docling, you can simply install the docling package from PyPI. Documentation and examples are available in our GitHub repository at github.com/DS4SD/docling. All required model assets 1 are downloaded to a local huggingface datasets cache on first use, unless you choose to pre-install the model assets in advance.",
-      "text": "To use Docling, you can simply install the docling package from PyPI. Documentation and examples are available in our GitHub repository at github.com/DS4SD/docling. All required model assets 1 are downloaded to a local huggingface datasets cache on first use, unless you choose to pre-install the model assets in advance."
+      "orig": "To use Docling, you can simply install the docling package from PyPI. Documentation and examples are available in our GitHub repository at ",
+      "text": "To use Docling, you can simply install the docling package from PyPI. Documentation and examples are available in our GitHub repository at "
     },
     {
       "self_ref": "#/texts/21",
@@ -27763,6 +27783,61 @@
       ],
       "orig": "9",
       "text": "9"
+    },
+    {
+      "self_ref": "#/texts/996",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 269,
+            "t": 538.5,
+            "r": 380,
+            "b": 528,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "github.com/DS4SD/docling",
+      "text": "github.com/DS4SD/docling",
+      "hyperlink": "https://github.com/DS4SD/docling"
+    },
+    {
+      "self_ref": "#/texts/997",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 108.0,
+            "t": 538.5,
+            "r": 504.00300000000004,
+            "b": 506.362,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            158
+          ]
+        }
+      ],
+      "orig": ". All required model assets 1 are downloaded to a local huggingface datasets cache on first use, unless you choose to pre-install the model assets in advance.",
+      "text": ". All required model assets 1 are downloaded to a local huggingface datasets cache on first use, unless you choose to pre-install the model assets in advance."
     }
   ],
   "pictures": [
