@@ -1,22 +1,24 @@
 <doctag version="1.0.0">
   <text>Simple text</text>
   <text>
-    Here a code snippet:
+    <content>Here a code snippet: </content>
     <code class="Python">help()</code>
-(to be shown)
+    <content> (to be shown)</content>
   </text>
   <list ordered="false">
     <list_text>foo</list_text>
     <list_text>bar</list_text>
     <list_text>
-      Here a formula:
-      <formula>E=mc^2</formula>
+      <content>Here a formula: </content>
+      <formula>
+        <content>E=mc^2 </content>
+      </formula>
 in line
     </list_text>
     <list_text>
-      Here a
+      <content>Here a </content>
       <bold>bold</bold>
-text
+      <content> text</content>
     </list_text>
     <list_text>will contain sublist</list_text>
     <list ordered="false">
@@ -24,11 +26,11 @@ text
       <list_text>sublist item 2</list_text>
     </list>
     <list_text>
-      Here a
+      <content>Here a </content>
       <italic>
         <bold>both bold and italicized</bold>
       </italic>
-text and a sublist:
+      <content> text and a sublist:</content>
     </list_text>
     <list ordered="false">
       <list_text>sublist item a</list_text>
